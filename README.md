@@ -123,3 +123,18 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
     Getting the data
 
 ![alt text](geetingthedatafromroute.png)
+
+## To implement the resuablity of same component
+
+    php artisan make:component componentName
+
+    This command will make components inside the app and resource folder .
+
+
+    call whenever the this compnent is required
+
+![alt text](nexttocomonentmakingcommand.png)
+
+# Point ro Remember
+
+Make sure you use <x-front-end-navbar/> dashed before component name while calling
