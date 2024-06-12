@@ -12,6 +12,6 @@
     <a href="">Home</a>
     <a href="/about">About</a>
     <a href="/contact">Contact</a>
-    <h1 class="bg-red-500 flex">My name is {{$name}}</h1>
+    <h1 class="bg-red-500 flex">My name is {{$p}} {{$q}}</h1>
 </body>
 </html>

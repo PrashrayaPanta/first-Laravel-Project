@@ -10,6 +10,6 @@
     <a href="/">Home</a>
     <a href="/about">About</a>
     <a href="/contact">Contact</a>
-    <h1 class="bg-red-500">I am  in about page</h1>
+    <h1 class="bg-red-500">I am  in about page {{$p}}</h1>
 </body>
 </html>

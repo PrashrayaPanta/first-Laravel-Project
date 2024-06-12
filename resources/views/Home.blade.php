@@ -10,6 +10,6 @@
     <a href="">Home</a>
     <a href="/about">About</a>
     <a href="/contact">Contact</a>
-    <h1 class="bg-red-500">Home Page having varaible value {{$x}}</h1>
+    <h1 class="bg-red-500">Home Page having varaible value</h1>
 </body>
 </html>

@@ -102,8 +102,24 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 
 ## Larvel also based on MVC Design Pattern so, Laravel fulll stack Framework.
 
-1. M= Model stand for model . It represent the database structure.
+    1. M= Model stand for model . It represent the database structure.
 
-2. v = views means the page the user sees.
+    2. v = views means the page the user sees.
 
-3. c = controllers means business Logic.
+    3. c = controllers means business Logic.
+
+## Second Day
+
+    passing data from Route to certain Page (views)
+
+
+
+    compact keyword is used to pass the data from route to    certain Page
+
+![asfdgfdhf](howtoworktopassthedatafromroutetoviews.png)
+
+   <h4> When user hit "/about/anything" then about page will be provided to anything </h4>
+
+    Getting the data
+
+![alt text](geetingthedatafromroute.png)
