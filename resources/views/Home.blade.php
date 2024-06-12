@@ -7,9 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="">Home</a>
-    <a href="/about">About</a>
-    <a href="/contact">Contact</a>
-    <h1 class="bg-red-500">Home Page having varaible value</h1>
+    <x-front-end-navbar/>
+   <h1>This is Home Page</h1>
 </body>
 </html>

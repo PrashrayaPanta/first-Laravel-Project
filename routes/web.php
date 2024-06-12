@@ -15,9 +15,19 @@ Route::get('/about', function () {
 });
 
 
-Route::get('/about/{p}', function ($p) {
-    return view('About', compact("p"));
+
+
+Route::get('/admission', function () {
+    return view('Admission');
 });
+
+
+Route::get('/course', function () {
+    return view('Course');
+});
+
+
+
 
 
 //The nested paraemter value is extracted passing through the function and return which is provided to the views folder contact
@@ -25,8 +35,8 @@ Route::get('/contact/{p}/{q}', function ($p, $q) {
 
 
         return view("Contact", compact("p", "q"));
-    
-   
+
+
 });
 
 
@@ -38,9 +48,9 @@ Route::get('/contact/{p}/{q}', function ($p, $q) {
 Route::get('/contact/{p}/{j}', function ($p, $j) {
 
     return $p . $j;
-    
-    
-   
+
+
+
 });
 
 
