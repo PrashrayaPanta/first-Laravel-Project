@@ -138,3 +138,33 @@ Laravel is accessible, powerful, and provides tools required for large, robust a
 # Point ro Remember
 
 Make sure you use <x-front-end-navbar/> dashed before component name while calling
+
+### Day3
+
+    To get the data Request paremter must be passed to the route with the varaible name where the data submitted come
+
+![alt text](<geetingthedatausertype in Request parametr.png>)
+
+The /post_course post route is hitted from course page where action is passed with /post-course with method POST.
+
+Make model and migration
+
+    commmand to make migration and model
+
+    php artisan make:model ModelName -m
+
+
+
+
+    Model to do insert delte Update
+    migration means todefine the structure of db what type of data allow to insert whether it fields data re coumpulasory or not If we dont specifty anything then by required: true (if not in db the data will not be saved)
+
+    //nullable allow to save the data empty also and with data also.
+
+    ![alt text](createschema.png)
+
+
+    Then use migrate command. This will make the table in db
+
+
+    php artisan migrate
